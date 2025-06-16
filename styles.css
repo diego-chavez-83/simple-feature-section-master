@@ -3,9 +3,9 @@
 	--color-card-bg: #212936;
 	--color-text-main: #e5e7eb;
 	--color-text-muted: #9da3ae;
-	--color-footer-bg: #545d5c;
-	--color-footer-text: #0d1625;
-	--color-link: #7aac60;
+	--color-footer-bg: #545d5c1c;
+	--color-footer-text: #50555e;
+	--color-link: #7bac6095;
 
 	--icon1-bg: #fceed8;
 	--icon2-bg: #dee9fc;
@@ -50,7 +50,8 @@ body::before {
 .layout-container {
 	width: 100%;
 	max-width: 1200px;
-	padding: 2.5rem 1.5rem;
+	min-height: 100%;
+	padding: 1.5rem;
 	margin: auto;
 }
 
@@ -167,5 +168,8 @@ body::before {
 @media (min-width: 1280px) {
 	html {
 		font-size: 18px;
+	}
+	body::before {
+		background-image: url(./resources/Background_image@3x.png);
 	}
 }
